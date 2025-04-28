@@ -6,7 +6,7 @@ export const TemperaturePage = () => {
   return (
     <> 
     <Temperature/>
-    <Link to='/'>
+    <Link to='/romano'>
         <button>
           Romano
         </button>

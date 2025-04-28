@@ -18,6 +18,7 @@ export const Temperature = () => {
 
   return (
     <>  
+    <h1>Temperatura</h1>
         <form onSubmit={handleSubmit}> 
             <Input
                 field='value'
@@ -25,7 +26,6 @@ export const Temperature = () => {
                 value={value}
                 type='text'
                 onChangeHandler={(event) =>setValue(event.target.value)}
-
             />
 
             <Input
@@ -40,9 +40,9 @@ export const Temperature = () => {
             <button type='submit'>Submit</button>
         </form>
         {resultado && (
-        <div style={{ marginTop: '20px' }}>
+        <div>
           <h3>Resultado:</h3>
-          <pre>{JSON.stringify(resultado, null, 2)}</pre>
+          <h2>{JSON.stringify(resultado, null, 2)}</h2>
         </div>
       )}
     </>

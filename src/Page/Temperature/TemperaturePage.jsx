@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export const TemperaturePage = () => {
   return (
-    <> 
+    <>
     <Temperature/>
     <Link to='/'>
         <button>
