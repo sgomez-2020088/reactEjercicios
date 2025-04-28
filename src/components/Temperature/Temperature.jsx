@@ -34,6 +34,7 @@ export const Temperature = () => {
                 value={unit}
                 type='text'
                 onChangeHandler={(event) =>setUnit(event.target.value)}
+                placeHolder='Ingrese C-K-F'
 
             />
             <button type='submit'>Submit</button>
